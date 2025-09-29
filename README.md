@@ -1,7 +1,7 @@
 # 🌐 Deepika Lakshmi S | Portfolio Website
 
 <p align="center">
-  <a href="https://Deepu0808.github.io" target="_blank">
+  <a href="https://github.com/Deepu0808/Deepu0808.github.io.git" target="_blank">
     <img src="https://img.shields.io/badge/🔗_Live%20Demo-Visit%20Now-blue?style=for-the-badge" alt="Live Demo">
   </a>
 </p>
@@ -26,8 +26,6 @@ Below are a few snapshots of my live website 👇
 | 🏠 **Home / Objective** | ![Home](screenshots/home.png) |
 | 💻 **Projects** | ![Projects](screenshots/projects.png) |
 | 🧠 **Skills** | ![Skills](screenshots/skills.png) |
-
-
 
 ---
 
