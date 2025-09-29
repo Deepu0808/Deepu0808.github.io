@@ -1,112 +1,65 @@
-<<<<<<< HEAD
 # 🌐 Deepika Lakshmi S – Portfolio Website
-
-Welcome to my personal portfolio website!  
-This site showcases my **projects**, **skills**, and **contact information** — built entirely using HTML, CSS, and JavaScript.  
-It reflects my journey as a **Web Developer** and my passion for creating responsive and user-friendly websites.
-
+<p align="center">
+Welcome to my **personal portfolio website**, a creative showcase of my journey as a **Web Developer**, **Problem Solver**, and **Tech Enthusiast**.  
+This site highlights my **projects**, **skills**, and **contact information**, built using **HTML, CSS, and JavaScript** with a focus on **responsive design** and **user experience**.
+</p>
 ---
 
 ## 🚀 Live Demo
-🔗 **Visit Now:** [https://Deepu0808.github.io](https://Deepu0808.github.io)
+🔗 **View My Portfolio:** [https://Deepu0808.github.io](https://Deepu0808.github.io)
 
 ---
 
 ## 🖼️ Website Preview
 
-Here are a few screenshots from my live portfolio website 👇  
-(Replace these image links with your own screenshots stored in the repository)
-
-## 🖼️ Website Preview
+Below are a few snapshots of my live website 👇  
+(You can replace these placeholders with your actual screenshots.)
 
 | Section | Screenshot |
 |----------|-------------|
-| 🏠 **Home / Objective Section** | ![Home](screenshots/home.png) |
-| 💻 **Projects Section** | ![Projects](screenshots/projects.png) |
-| 🧠 **Skills Section** | ![Skills](screenshots/skills.png) |
+| 🏠 **Home / Objective** | ![Home](screenshots/home.png) |
+| 💻 **Projects** | ![Projects](screenshots/projects.png) |
+| 🧠 **Skills** | ![Skills](screenshots/skills.png) |
 
-
-> 📸 Save your screenshots in a folder named `screenshots` inside the repo.
+> 📸 *Tip:* Store your screenshots in a folder named `screenshots` at the root of your repository.
 
 ---
 
 ## 🛠️ Tech Stack
-
-| Category | Tools Used |
-|-----------|-------------|
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Styling** | Custom CSS, Flexbox, Animations |
-| **Version Control** | Git, GitHub |
-| **Deployment** | GitHub Pages |
-| **Design Tools** | Canva, Figma |
+<p align="center">
+| Category | Tools & Technologies |
+|-----------|----------------------|
+| 💻 **Frontend** | HTML5, CSS3, JavaScript |
+| 🎨 **Styling & Design** | Custom CSS, Flexbox, Animations |
+| ⚙️ **Frameworks / Libraries** | Node.js, Express.js (for projects) |
+| 🧰 **Tools & Platforms** | Git, GitHub, VS Code, Postman |
+| 🗄️ **Database / APIs** | MongoDB, REST APIs, JSON |
+| 🧩 **Design Tools** | Canva, Figma |
 
 ---
+</p>
+## ✨ Features
 
-## 💡 Features
-
-✅ Fully Responsive Design  
-✅ Interactive Scroll Animations  
-✅ Filterable Project Section  
-✅ Scroll-to-Top Button  
-✅ Smooth Navigation Links  
-✅ Contact Links (Email, GitHub, LinkedIn)
+✅ **Fully Responsive Design** — adapts beautifully to all devices  
+✅ **Smooth Scroll & Section Animations** — powered by CSS & JS  
+✅ **Project Filtering** — easily view projects by category  
+✅ **Scroll-to-Top Button** — quick navigation  
+✅ **Interactive UI** — engaging and clean visual layout  
+✅ **Contact Links** — connect via Email, GitHub, or LinkedIn
 
 ---
 
 ## 📂 Folder Structure
 
-=======
-# 🌐 Deepika Lakshmi S – Portfolio Website
 
-Welcome to my personal portfolio website!  
-This site showcases my **projects**, **skills**, and **contact information** — built entirely using HTML, CSS, and JavaScript.  
-It reflects my journey as a **Web Developer** and my passion for creating responsive and user-friendly websites.
-
----
-
-## 🚀 Live Demo
-🔗 **Visit Now:** [https://Deepu0808.github.io](https://Deepu0808.github.io)
-
----
-
-## 🖼️ Website Preview
-
-Here are a few screenshots from my live portfolio website 👇  
-(Replace these image links with your own screenshots stored in the repository)
-
-| Section | Screenshot |
-|----------|-------------|
-| 🏠 **Home / Objective Section** | ![Home](screenshots/home.png) |
-| 💻 **Projects Section** | ![Projects](screenshots/projects.png) |
-| 🧠 **Skills Section** | ![Skills](screenshots/skills.png) |
-
-> 📸 Save your screenshots in a folder named `screenshots` inside the repo.
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Tools Used |
-|-----------|-------------|
-| **Frontend** | HTML5, CSS3, JavaScript |
-| **Styling** | Custom CSS, Flexbox, Animations |
-| **Version Control** | Git, GitHub |
-| **Deployment** | GitHub Pages |
-| **Design Tools** | Canva, Figma |
-
----
-
-## 💡 Features
-
-✅ Fully Responsive Design  
-✅ Interactive Scroll Animations  
-✅ Filterable Project Section  
-✅ Scroll-to-Top Button  
-✅ Smooth Navigation Links  
-✅ Contact Links (Email, GitHub, LinkedIn)
-
----
-
-## 📂 Folder Structure
-
->>>>>>> 88d96df9ce95bb925565bb4cb18d9e3567a52c28
+```bash
+Deepu0808.github.io/
+│
+├── index.html           # Main HTML structure
+├── style.css            # Custom styles and animations
+├── script.js            # Interactive JavaScript logic
+├── screenshots/         # Folder containing screenshots
+│   ├── home.png
+│   ├── projects.png
+│   └── skills.png
+└── README.md            # Project documentation (this file)
