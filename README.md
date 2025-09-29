@@ -1,8 +1,8 @@
 # 🌐 Deepika Lakshmi S – Portfolio Website
-<p align="center">
+
 Welcome to my **personal portfolio website**, a creative showcase of my journey as a **Web Developer**, **Problem Solver**, and **Tech Enthusiast**.  
 This site highlights my **projects**, **skills**, and **contact information**, built using **HTML, CSS, and JavaScript** with a focus on **responsive design** and **user experience**.
-</p>
+
 ---
 
 ## 🚀 Live Demo
@@ -13,7 +13,6 @@ This site highlights my **projects**, **skills**, and **contact information**, b
 ## 🖼️ Website Preview
 
 Below are a few snapshots of my live website 👇  
-(You can replace these placeholders with your actual screenshots.)
 
 | Section | Screenshot |
 |----------|-------------|
@@ -26,7 +25,7 @@ Below are a few snapshots of my live website 👇
 ---
 
 ## 🛠️ Tech Stack
-<p align="center">
+
 | Category | Tools & Technologies |
 |-----------|----------------------|
 | 💻 **Frontend** | HTML5, CSS3, JavaScript |
@@ -37,7 +36,7 @@ Below are a few snapshots of my live website 👇
 | 🧩 **Design Tools** | Canva, Figma |
 
 ---
-</p>
+
 ## ✨ Features
 
 ✅ **Fully Responsive Design** — adapts beautifully to all devices  
