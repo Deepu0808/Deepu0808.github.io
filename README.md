@@ -1,4 +1,11 @@
-# 🌐 Deepika Lakshmi S – Portfolio Website
+# 🌐 Deepika Lakshmi S | Portfolio Website
+
+<p align="center">
+  <a href="https://Deepu0808.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/🔗_Live%20Demo-Visit%20Now-blue?style=for-the-badge" alt="Live Demo">
+    <link rel="icon" href="favicon.png">
+  </a>
+</p>
 
 Welcome to my **personal portfolio website**, a creative showcase of my journey as a **Web Developer**, **Problem Solver**, and **Tech Enthusiast**.  
 This site highlights my **projects**, **skills**, and **contact information**, built using **HTML, CSS, and JavaScript** with a focus on **responsive design** and **user experience**.
