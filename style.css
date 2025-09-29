@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
         margin: 0;
         padding: 0;
@@ -451,3 +452,458 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+=======
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family:'Times New Roman', Times, serif;
+        background-color: #f4f4f9;
+        color: #100f0f;
+        line-height: 1.6;
+        background-image: url("https://wallpaperaccess.com/full/5651990.jpg");
+        background-size: cover;
+
+    }
+    header {
+        background:lightslategray;
+        color: brown;
+        padding: 2rem 0;
+        text-align: center;
+        animation: fadeDown 1s ease-in-out;
+        max-height:200px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        color: #2b07bc;
+        font-style: normal;
+        text-decoration: none;
+    }
+    header p {
+        font-size: 25px;
+        margin-top: 0.5rem;
+    }
+
+    header p:hover {
+        color: white;
+    }
+
+
+    nav {
+        background: #0e0e0e;
+        text-align: center;
+        padding: 0.5rem ;
+    }
+    nav a {
+        color: rgb(241, 241, 249);
+        margin: 0 1rem;
+        font-weight: 600;
+        transition: color 0.3s;
+    }
+    nav a:hover {
+        color: #87cefa;
+    }
+    
+
+    section {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 1.5rem;
+        background: teal;
+        text-align: center;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        animation: fadeUp 1s ease-in-out;
+        
+        
+    }
+    section:hover {
+        transform: translatex(-10px);
+        
+    }
+    section h2 {
+        color: gold;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+        border-left: 2px solid #f7f7fc;
+        padding-left: 10px;
+      }
+    section h2:hover{
+        color: #f7f7fc;
+        }
+        section .contact{
+            border-radius: 399px;
+        }
+
+/* ===== Project Section ===== */
+.projects {
+  padding: 60px 10%;
+  background-color: #f8f7f7;
+  text-align: center;
+}
+
+/* Sticky Filter Buttons */
+.sticky-filters {
+  position: sticky;
+  top: 70px; /* Adjust if navbar present */
+  background: #fafafa;
+  padding: 10px 0;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background-color: #6b3f69;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: #8d4e87;
+  transform: scale(1.05);
+}
+
+.filter-btn.active {
+  background-color: gold;
+  color: black;
+}
+
+/* Project Cards */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 320px;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-card.hide {
+  opacity: 0;
+  transform: translateY(30px);
+  pointer-events: none;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-content h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tech-stack {
+  color: #6b3f69;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.project-links {
+  margin-top: 15px;
+}
+
+.project-links .btn {
+  background-color: #6b3f69;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.project-links .btn:hover {
+  background-color: #8d4e87;
+}
+
+.project-links .btn.live {
+  background-color: #2e8b57;
+}
+
+.project-links .btn.live:hover {
+  background-color: #3aa468;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.skill-category {
+  background: #f8f7f7;
+  padding: 20px;
+  border-radius: 25px ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-6px);
+}
+
+.skill-category h3 {
+  color: #6B3F69;
+  margin-bottom: 10px;
+}
+
+.skill-category p {
+  color: #444;
+  line-height: 1.6;
+}
+
+    
+        /* ===== Contact Section ===== */
+#contact {
+  text-align: center;
+  background: teal;
+  color: black;
+  border-radius: 50px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+#contact:hover {
+transform: translatex(-10px);
+
+}
+
+#contact h2 {
+  color: gold;
+        text-decoration: underline;
+        margin-bottom: 1rem;
+        border-left: 2px solid #f7f7fc;
+        padding-left: 10px;
+}
+
+#contact h2:hover {
+color: #f7f7fc;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  background: #222;
+  color: #87cefa;
+  padding: 0.7rem 1.3rem;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(135, 206, 250, 0.4);
+}
+
+.contact-links a:hover {
+  background: gold;
+  color: #111;
+  transform: translateY(-5px);
+  box-shadow: 0 0 12px gold;
+}
+
+/* ===== Contact Section Animation ===== */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+    .projects .project {
+        background: #bda0de;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        border-radius: 200px;
+        transition: transform 0.7s ease;
+    }
+    
+    .projects .project:hover {
+        transform: translatex(-127px);
+        
+    }
+      section .contact{
+        border-radius:0%;
+    }
+
+
+ /* ===== Footer Section ===== */
+footer {
+  background: #111;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  border-top: 2px solid #444;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer animations */
+.footer-container {
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.footer-container p,
+.footer-container .footer-links,
+.footer-container .footer-quote {
+  opacity: 0;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+.footer-container p:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.footer-container .footer-links {
+  animation-delay: 0.6s;
+}
+
+.footer-container .footer-quote {
+  animation-delay: 0.9s;
+}
+
+/* Footer links */
+.footer-links a {
+  color: #87cefa;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Glowing quote */
+.footer-quote {
+  color: gold;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 8px gold;
+  animation: glowPulse 3s infinite ease-in-out;
+}
+
+@keyframes glowPulse {
+  0%, 100% { text-shadow: 0 0 8px gold; }
+  50% { text-shadow: 0 0 18px #ffdf00; }
+}
+
+/* Fade-in-up animation */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== Scroll to Top Button ===== */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #111;
+  color: gold;
+  border: 2px solid gold;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+  animation: glowPulse 3s infinite ease-in-out;
+}
+
+/* Show button when scrolled down */
+#scrollTopBtn.show-btn {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Hover effect */
+#scrollTopBtn:hover {
+  background-color: gold;
+  color: #111;
+  box-shadow: 0 0 20px gold;
+  transform: scale(1.1);
+}
+
+
+    /* Animations */
+    @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeDown {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ===== Scroll Fade-in Animation ===== */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+>>>>>>> 88d96df9ce95bb925565bb4cb18d9e3567a52c28
